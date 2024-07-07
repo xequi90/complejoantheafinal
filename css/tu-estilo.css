@@ -11,24 +11,10 @@
 /***********************HEADER***********************/
 /****************************************************/
 
-.header {
-  background-color: #74b7ff;
-  display: flex;  
-  padding: 0.5rem 2rem;
-  align-items: center;
-  justify-content: space-between;
 
-  width: 100%;
-}
 
 .logo {
-  width: 13rem;
-}
-
-.menu {
-  list-style-type: none;
-  display: flex;
-  gap: 2rem;
+  width: 10rem;
 }
 
 .menu-link {
@@ -40,9 +26,6 @@
 .width-bg {
   background-color: #74b7ff;
   
-
-
-
 }
 
 /****************************************************/
