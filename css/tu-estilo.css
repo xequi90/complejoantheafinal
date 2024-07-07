@@ -11,11 +11,19 @@
 /***********************HEADER***********************/
 /****************************************************/
 
+.header {
+  display: flex;  
+  padding: 0.5rem 2rem;
+  align-items: center;
+  justify-content: space-between;
 
+  width: 100%;
+}
 
 .logo {
-  width: 10rem;
+  width: 12rem;
 }
+
 
 .menu-link {
   color: black;
