@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
@@ -34,7 +33,7 @@
 
 .width-bg {
   background-color: #74b7ff;
-  
+
 }
 
 /****************************************************/
@@ -58,52 +57,188 @@
 h1 {
   padding: 3%;
   border-radius: 0.6rem;
-
+  text-align: center;
   background-color: rgba(255, 255, 255, 0.247);
 }
 
 /********************************************************************/
 /***********************NUESTRAS INSTALACIONES***********************/
 /********************************************************************/
-.antheaimg {
-  padding: 4rem;
-  display: flex;
-  gap: 1rem;
+.antheapic{
+  padding: 4%;
   flex-wrap: wrap;
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  gap: 1.5rem;
 }
 
-.complejoanthea-img {
+.antheapic__img {
   background-color: #ffb774;
   padding: 0.5rem;
   border-radius: 0.5rem;
   display: flex;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
+
+
+.antheapic__img5 { 
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+.antheapic__img6{ 
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+.antheapic__img7 { 
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+.antheapic__img8 { 
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+
+/***RESPONSIVE CELUS**/  
+
+@media (max-width: 425px) {
+
+  .antheapic{
+    padding: 4%;
+    flex-wrap: wrap;
+    max-width: 1250px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    gap: 1.5rem;
+  }
+
+  .antheapic__img1 { 
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+
+  .antheapic__img2 { 
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+
+  .antheapic__img3 { 
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+
+  .antheapic__img4 { 
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
 
 /********************************************************************/
 /*****************************SERVICIOS******************************/
 /********************************************************************/
 
 .servicios {
-  max-width: auto;
+  padding: 4%;
+  flex-wrap: wrap;
+  max-width: 1250px;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  gap: 1.5rem;
+  
 }
 
-.nuestros-servicios {
-  font-size: xx-large;
-  padding-left: 50%;
+
+@media (max-width: 768px) {
+  .servicios {
+    padding: 4%;
+    flex-wrap: wrap;
+    max-width: 1250px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    gap: 1.5rem;
+    
+  }
+  
+  .servicios__img1 {
+    grid-row: span 3;
+    grid-column: span 3;
+  }
+  
+  .servicios__img2 {
+    grid-row: span 3;
+    grid-column: span 3;
+  }
+
+  .servicios__img3 {
+    grid-row: span 3;
+    grid-column: span 3;
+  }
+
+  .servicios__img4 {
+    grid-row: span 3;
+    grid-column: span 3;
+  }
+
+  .servicios__img5 {
+    grid-row: span 3;
+    grid-column: span 3;
+  }
+
+  .servicios__img6 {
+    grid-row: span 3;
+    grid-column: span 3;
+  }
+
+  .servicios__img7 {
+    grid-row: span 3;
+    grid-column: span 3;
+  }
+
+  .servicios__img8 {
+    grid-row: span 3;
+    grid-column: span 3;
+  }
+
 }
+
+
 
 /********************************************************************/
 /*****************************UBICACION******************************/
 /********************************************************************/
-.ubicacion {
+
+.ubicacion { 
   padding: 1rem 20%;
   height: auto;
   flex-wrap: wrap;
-  display: flex;
-}
+  display: flex;}
 
 .bordemapa {
   background-color: #ffb774;
@@ -116,24 +251,34 @@ h1 {
 /********************************************************************/
 .contacto-title {
   font-size: xx-large;
-  padding-left: 50%;
+  align-items: center;
+  text-align: center;
 }
 
 .formulario {
-  flex-wrap: wrap;
+
   align-items: center;
   overflow: hidden;
-  margin: 1rem 40%;
+
   font-weight: bold;
 }
 
 /********************************************************************/
 /*****************************FOOTER******************************/
 /********************************************************************/
+
 footer {
-  background-color: #74b7ff;
-  padding: 1em 0;
-  text-align: center;
-  position: absolute;
+  position: fixed;
+  bottom: 0;
+  left: 0;
   width: 100%;
-}/*# sourceMappingURL=tu-estilo.css.map */
+  background-color: #74b7ff;
+  padding: 10px;
+  text-align: center;
+}
+
+body {
+  min-height: 100vh;
+  margin-bottom: 50px; 
+  
+}
