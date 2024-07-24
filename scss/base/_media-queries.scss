@@ -1,0 +1,94 @@
+      /***RESPONSIVE CELUS**/  
+      
+      @media (max-width: 425px) {
+      
+        .antheapic{
+          padding: 4%;
+          flex-wrap: wrap;
+          max-width: 1250px;
+          margin: auto;
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-auto-rows: auto;
+          gap: 1.5rem;
+
+          .antheapic__img1 { 
+            grid-row: span 2;
+            grid-column: span 2;
+          }
+        
+          .antheapic__img2 { 
+            grid-row: span 2;
+            grid-column: span 2;
+          }
+        
+          .antheapic__img3 { 
+            grid-row: span 2;
+            grid-column: span 2;
+          }
+        
+          .antheapic__img4 { 
+            grid-row: span 2;
+            grid-column: span 2;
+          }
+        
+        }
+      
+        
+    }
+
+
+    @media (max-width: 768px) {
+      .servicios {
+        padding: 4%;
+        flex-wrap: wrap;
+        max-width: 1250px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: auto;
+        gap: 1.5rem;
+
+         .servicios__img1 {
+    grid-row: span 3;
+    grid-column: span 3;
+  }
+  
+  .servicios__img2 {
+    grid-row: span 3;
+    grid-column: span 3;
+  }
+
+  .servicios__img3 {
+    grid-row: span 3;
+    grid-column: span 3;
+  }
+
+  .servicios__img4 {
+    grid-row: span 3;
+    grid-column: span 3;
+  }
+
+  .servicios__img5 {
+    grid-row: span 3;
+    grid-column: span 3;
+  }
+
+  .servicios__img6 {
+    grid-row: span 3;
+    grid-column: span 3;
+  }
+
+  .servicios__img7 {
+    grid-row: span 3;
+    grid-column: span 3;
+  }
+
+  .servicios__img8 {
+    grid-row: span 3;
+    grid-column: span 3;
+  }
+
+        
+      }
+    }

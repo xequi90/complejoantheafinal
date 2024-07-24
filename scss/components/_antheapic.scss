@@ -1,0 +1,55 @@
+.antheapic {
+    padding: 4%;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  gap: 1.5rem;
+  
+  .antheapic__img {
+    background-color: #ffb774;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  
+    .antheapic__img5 { 
+        grid-row: span 2;
+        grid-column: span 2;
+      }
+      
+      .antheapic__img6{ 
+        grid-row: span 2;
+        grid-column: span 2;
+      }
+      
+      .antheapic__img7 { 
+        grid-row: span 2;
+        grid-column: span 2;
+      }
+      
+      
+      .antheapic__img8 {
+        grid-row: span 2;
+        grid-column: span 2;
+       
+       ; /* agregar una transición suave */
+      }
+      
+      .antheapic__img:hover {
+        transition: transform 0.5s;
+        transform: scale(1.1); /* ampliar la imagen al pasar el mouse */
+      }
+      
+      
+      
+  
+  }
+  
+  
+  
+  }

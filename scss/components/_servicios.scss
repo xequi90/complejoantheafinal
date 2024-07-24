@@ -1,0 +1,11 @@
+.servicios {
+    padding: 4%;
+    flex-wrap: wrap;
+    max-width: 1250px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    gap: 1.5rem;
+    
+  }
