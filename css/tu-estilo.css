@@ -258,7 +258,9 @@ h1 {
 
 .descripcion {justify-content: center;
 text-align: center;
-font-size: larger;}
+font-size: larger;
+margin: 0.5rem;
+padding: 0.5rem;}
 
 /********************************************************************/
 /*****************************CONTACTO******************************/
